@@ -11,6 +11,10 @@ main {
     width: 100vw;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .container {
     display: flex;
     flex-direction: column;
