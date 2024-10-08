@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="styles/output.css">
+  <script src="https://kit.fontawesome.com/58e6370265.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="/styles/output.css">
 
   <title>IMC - Raiana Nutri</title>
 </head>
@@ -20,7 +22,7 @@
 
       <!--LOGOMARCA-->
       <img class="rounded-full w-36 h-36 border-4 border-escuro -translate-y-14 hover:scale-110 duration-200 shadow-lg"
-        src="assets/imgs/logo.jpg" alt="">
+        src="/assets/imgs/logo.jpg" alt="">
 
       <!--TITULO IMC-->
       <div class="flex w-full justify-center items-center -translate-y-6">
@@ -45,12 +47,13 @@
             <label id="labelInputName" class="text-white">NOME:</label>
             <input id="inputName" class="bg-transparent uppercase border-none outline-none text-white w-full"
               type="text">
+            <i class="fa-solid fa-user text-white"></i>
           </div> <!--INPUT FIM-->
           <!--TEXTO DE ERRO-->
           <p id="msnErrorName" class="-translate-y-2 text-sm text-white hidden"> * Preencha o campo acima!</p>
           <!--BTN-->
           <button id="btnName" class="bg-white py-2 rounded-md w-4/5 duration-200 hover:scale-110 active:scale-90">
-            SEGUINTE ➜ </button>
+            SEGUINTE <i class="fa-solid fa-chevron-right"></i> </button>
         </div>
 
         <!--INPUT E BTN (ALTURA)-->
@@ -60,13 +63,14 @@
             class="border-white duration-200 w-4/5 border rounded-md flex gap-1 px-4 py-2 justify-center items-center">
             <label class="text-white">ALTURA:</label>
             <input id="inputAltura" class="bg-transparent border-none outline-none text-white w-full" type="number">
+            <i class="fa-solid fa-arrows-up-down text-white"></i>
           </div> <!--INPUT FIM-->
           <!--TEXTO DE ERRO-->
           <p id="msnErrorAltura" class="-translate-y-2 text-sm text-white hidden"> * Preencha o campo acima!</p>
           <!--BTN-->
           <button id="btnAltura"
             class="appearance-none	bg-white py-2 rounded-md w-4/5 duration-200 hover:scale-110 active:scale-90">
-            SEGUINTE ➜ </button>
+            SEGUINTE <i class="fa-solid fa-chevron-right"></i> </button>
         </div>
 
         <!--INPUT E BTN (PESO)-->
@@ -77,12 +81,13 @@
             <label class="text-white">PESO:</label>
             <input id="inputPeso" class="appearance-none bg-transparent border-none outline-none text-white w-full"
               type="number">
+            <i class="fa-solid fa-weight-hanging text-white"></i>
           </div> <!--INPUT FIM-->
           <!--TEXTO DE ERRO-->
           <p id="msnErrorPeso" class="-translate-y-2 text-sm text-white hidden"> * Preencha o campo acima!</p>
           <!--BTN-->
           <button id="btnPeso" class="bg-white py-2 rounded-md w-4/5 duration-200 hover:scale-110 active:scale-90">
-            CALCULAR </button>
+            CALCULAR <i class="fa-solid fa-chevron-right"></i> </button>
         </div>
 
 
@@ -95,9 +100,9 @@
           class="bg-white py-2 rounded-md w-3/5 hidden mt-12 justify-center items-center duration-200 hover:scale-110 active:scale-90">Fazer
           um
           novo
-          cálculo</button>
+          cálculo <i class="fa-solid fa-arrow-rotate-right ml-1"></i></button>
         <div class="">
-          <img class="w-60" src="assets/imgs/logo2.png" alt="">
+          <img class="w-60" src="/assets/imgs/logo2.png" alt="">
         </div>
 
       </div> <!--INPUTS, BTNS E LOGO 2 FIM-->
